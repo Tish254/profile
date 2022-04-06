@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffs</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header>
+        <h2> User profile </h2>
+    </header>
+    <main>
+        <section class="section">
+            <div class="section-top">
+                <div class="section-profile">
+                    <p class="image">C</p>
+                    <p class="after-image"> Clark Kent </p>
+                    <p class="email"> ckent@gmail.com </p>
+                </div>
+                
+            </div>
+            <div class="section-bottom">
+
+                <div class="section-bottom-form">
+                    <h3>User Details</h3>
+                    <form action="/action_page.php">
+                        <div class="item">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="Firstname" value="Testing"disabled>
+                        </div>
+                        <div class="item">
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Firstname" value="Tested" disabled>
+                            
+                        </div>
+                        <div class="item">
+                            <label for="lname">Contact Number:</label>
+                            <input type="text" id="lname" name="cnumber" placeholder="Contact number" value="0738383838" disabled>
+                            
+                        </div>
+                        <div class="item">
+                            <label for="lname">Email:</label>
+                            <input type="text" id="lname" name="email" placeholder="Email" value="tested.kenya23@gmail.com" disabled>
+                            
+                        </div>
+                        <div class="item">
+                            <label for="lname">Date Created</label>
+                            <input type="text" id="lname" name="lname" value="19/10/2020" disabled>
+                            
+                        </div>
+                        <div class="item inactive">
+                            <input type="checkbox" disabled>
+                            <span>Inactive</span>
+                        </div>
+                
+                    </form>
+                </div>
+
+                <div class="section-bottom-table">
+                    <table>
+                        <thead>
+                          <tr>
+                            <th colspan="2"> Assigned User Roles </th>
+                          </tr>
+                        </thead>
+                        <tr class="top-row">
+                          <th> Rolename </th>
+                          <th> Description </th>
+                          <th> Status </th>
+                        </tr>
+                        <tr>
+                          <td> SPG Support </td>
+                          <td> SPG Support </td>
+                          <td> <input type="checkbox"> </td>
+                        </tr>
+                        <tr>
+                          <td> Basic </td>
+                          <td> </td>
+                          <td> <input type="checkbox"> </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <div class="section-bottom-buttons">
+                    <button type = "submit"> Activate </button>
+                      <button type = "submit"> Password Reset </button>
+                      <button type = "submit"> Manager Roles </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
