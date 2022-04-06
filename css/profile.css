@@ -144,6 +144,7 @@ button {
     height: 2.5em;
     padding: 0 2em;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 input[type=checkbox] {
@@ -164,6 +165,7 @@ input[type=checkbox] {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 
