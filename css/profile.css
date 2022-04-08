@@ -81,10 +81,15 @@ th, td{
 table {
     width: 100%;
     /* margin: 0 auto; */
-    overflow-x: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
     border-collapse: collapse;
     /* border: 1px solid rgba(0, 0, 0, 0.2);; */
     border-top: none;
+}
+
+tbody {
+    width: 100%;
 }
 
 
@@ -193,4 +198,66 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     gap: .5em;
+}
+
+.section-bottom-table {
+    overflow-x: auto;
+}
+
+
+
+
+@media only screen and (max-width: 1095px) {
+
+    header h1 {
+
+        text-align: center;
+        
+    }
+
+    .section {
+        
+        display: flex ;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .section-top {
+        width: 100%;
+    }
+
+    
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 760px) {
+    .section-bottom-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    body {
+        /* color: #F2F2F2; */
+        margin: 3em 2em; 
+        
+    }
+
+    button {
+        font-size: 1em;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    
 }
